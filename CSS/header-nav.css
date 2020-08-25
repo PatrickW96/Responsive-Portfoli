@@ -1,0 +1,24 @@
+body {
+    background-image: url("../Images/red-brickwall.jpg");
+}
+
+#bio-name {
+    font-size: 250%;
+    color: #496985;
+
+}
+
+nav ul a {
+    color: #496985;
+}
+
+nav {
+    background: linear-gradient(
+        to right,        
+        #f7f2df,
+        #d1cec5,
+        #bab093,
+        #b38246
+    );
+}
+
