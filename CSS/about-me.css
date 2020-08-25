@@ -1,0 +1,19 @@
+                                /* About Me and content in container */
+#main-content {
+    background: linear-gradient(
+        to right,        
+        #f7f2df,
+        #d1cec5,
+        #bab093,
+        #b38246
+    );
+    color: #496985;
+    opacity: .9;
+}
+
+img {
+    max-height: 225px;
+}
+
+
+
