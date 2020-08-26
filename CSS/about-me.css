@@ -1,4 +1,4 @@
-                                /* About Me and content in container */
+/* Styling background color of the main content container*/
 #main-content {
     background: linear-gradient(
         to right,        
@@ -12,5 +12,14 @@
     border: 2px solid #496985;
 }
 
+/* Setting  unit of measurement on the picture to make the image responsive */
+img {
+    max-width: 35%;
+    min-width: 8rem;
+}
+
+.main-heading {
+    font-size: 2.9vw;
+}
 
 

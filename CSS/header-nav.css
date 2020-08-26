@@ -3,10 +3,11 @@
 }
 
 #bio-name {
-    font-size: 2rem;
+    font-size: 3.5vw;
+    color: #496985;
 }
 
-#bio-name1 { 
+#bio-image { 
     color: #496985;
     padding-right: 5px;
 }
