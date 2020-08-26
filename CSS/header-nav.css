@@ -4,10 +4,11 @@
 
 #bio-name {
     font-size: 2rem;
+}
+
+#bio-name1 { 
     color: #496985;
-    background-color: white;
     padding-right: 5px;
-    width: 100%;
 }
 
 nav ul a {
@@ -25,6 +26,10 @@ nav {
         #b38246
     );
     margin-bottom: 5rem !important;
-    opacity: .9;
+    opacity: .8;
+    border: 2px solid #496985;
 }
 
+.index {
+    z-index: 2;
+}
