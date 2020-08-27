@@ -1,7 +1,7 @@
 .bg {
     background-image: url("../Images/red-brickwall.jpg");
 }
-
+/*
 #bio-name {
     font-size: 3.5vw;
     color: #496985;
@@ -17,8 +17,8 @@ nav ul a {
     font-weight: 500 !important;
     font-size: 1.2rem;
 }
-
-nav {
+*/
+ nav {
     background: linear-gradient(
         to right,        
         #f7f2df,
@@ -26,11 +26,12 @@ nav {
         #bab093,
         #b38246
     );
-    margin-bottom: 5rem !important;
+    /* margin-bottom: 5rem !important; */
     opacity: .8;
     border: 2px solid #496985;
 }
 
-.index {
+/* .index {
     z-index: 2;
-}
+} 
+ */

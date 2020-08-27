@@ -14,24 +14,28 @@
     <body class="bg img-responsive">
 
 <!-- Navbar set up from getBootstrap.com with Header included/ added varius styles to classes and elements -->
-        <nav class="navbar navbar-light navbar-static-top">
-            <div class="container"></div>
-            <div class="navbar-brand">
-                <a href="index.html">Patrick Whelan: <small class="text-muted">Web Developer;</small></a>
-            </div>
+        <nav class="navbar navbar-default navbar-expand-sm navbar-static-top" role="navigation">
+            <div class="container">
+                    
+                <a href="index.html" class="navbar-brand"><h5>Patrick Whelan:<small class="text-muted">Web Developer;</h5></a>
 
-            <div class="collapse navbar-collapse navHeaderCollapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li class="active"><a href="#">Portfolio</a></li>
-                    <li class="active"><a href="#">Contact</a></li>               
-                 </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse" id="collapseNav"> 
+                    <ul class="nav navbar-nav navbar-right ml-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Portfolio</a></li>  
+                        <li class="nav-item"><a class="nav-link active" href="#">Contacts</a></li>                                 
+                    </ul>
+
+                </div>
             </div>
         </nav>
                             <!-- End Header/ Navbar -->
                             <!-- Main Body Container-->                    
-        <main id="main-content" class="container mt-5 ml-5 sm-auto w-50 sm-w-100 py-4">
+        <main id="main-content" class="container mt-5 ml-5 sm-auto w-50  py-4">
 
             <section class="row ml-0">
                 <h1 class="col main-heading">Pat the Developer</h1>          
