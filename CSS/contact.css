@@ -1,0 +1,12 @@
+#main-content {
+    background: linear-gradient(
+        to right,        
+        #f7f2df,
+        #d1cec5,
+        #bab093,
+        #b38246
+    );
+    color: #496985;
+    opacity: .8;
+    border: 2px solid #496985;
+}
