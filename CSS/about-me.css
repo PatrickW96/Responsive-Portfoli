@@ -14,8 +14,9 @@
 
 /* Setting  unit of measurement on the picture to make the image responsive */
 img {
-    max-width: 35%;
-    min-width: 8rem;
+    max-width: 45%;
+    min-width: 7.8rem;
+    max-height: 12rem;
 }
 
 .main-heading {
