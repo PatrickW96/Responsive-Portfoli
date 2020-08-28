@@ -13,25 +13,26 @@
     <body class="bg img-responsive">
 
 <!-- Navbar set up from getBootstrap.com with Header included/ added varius styles to classes and elements -->
-        <nav class="navbar navbar-light p-2">
+        <nav class="navbar navbar-default navbar-expand-sm navbar-static-top" role="navigation">
+            <div class="container">
     
-            <a id="bio-name" class="navbar-brand" href="#">
-            <img src="Images/logo.JPG" width="75" height="75" class="img-respnsive d-inline-block 
-            align-top rounded-circle" alt=""> Patrick Whelan: <small class="text-muted">Web Developer;</small></a>
-    
-            <ul class="nav index justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>        
-                            <!-- End Header/ Navbar -->
+                <a href="index.html" class="navbar-brand"><h5>Patrick Whelan:<small class="text-muted">Web Developer;</h5></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapseNav"> 
+                    <ul class="nav navbar-nav navbar-right ml-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>  
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">Contacts</a></li>                                 
+                    </ul>
+               </div>
+            </div>
+        </nav>                                             
+<!-- End Header/ Navbar -->
+
                             <!-- Main Body Container-->
 
         <script src="" async defer></script>
