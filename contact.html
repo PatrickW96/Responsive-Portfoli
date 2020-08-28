@@ -6,6 +6,7 @@
         <title>Patrick Whelan WebDev</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="CSS/header-nav.css">
         <link rel="stylesheet" href="CSS/about-me.css">
@@ -16,13 +17,11 @@
 <!-- Navbar set up from getBootstrap.com with Header included/ added varius styles to classes and elements -->
         <nav class="navbar navbar-default navbar-expand-sm navbar-static-top" role="navigation">
             <div class="container">
-                
-                <a href="index.html" class="navbar-brand">
-                    
-                    <h5>Patrick Whelan:<small class="text-muted">Web Developer;</h5></a>
+            
+                <a href="index.html" class="navbar-brand"><h5>Patrick Whelan:<small class="text-muted">Web Developer;</h5></a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars"></i>
                 </button>
 
                 <div class="collapse navbar-collapse" id="collapseNav"> 
@@ -34,29 +33,40 @@
 
                 </div>
             </div>
-        </nav>
-                                             <!-- End Header/ Navbar -->
-        <main id="main-content" class="container mt-5 ml-auto ml-md-5 w-50 py-4">
-            <header>
-                <h1>Contact</h1>
+        </nav>                                             
+<!-- End Header/ Navbar -->
+        <main id="main-content" class="container w-50 mt-5 ml-auto ml-md-5 py-4">
+            <header class="row mx-2">
+                <h1 class="h1 col">Contact</h1>
             </header>
             <section>
-                <form class="w-75 w-md-75">
-                    <section class="form-group">
-                        <label>Name</label>
-                        <input type="name" class="form-control" placeholder="Name">
-                  </section>
-                    <section class="form-group">
-                        <label>Email</label>
-                        <input type="email" class="form-control" placeholder="Email">
+                <form>
+                    <section class="form-group row mx-sm-1">
+                        <div class="col-md-10">
+                            <label>Name</label>
+                            <input type="name" class="form-control" placeholder="Name">
+                        </div>
                     </section>
-                    <section class="form-group">
-                        <label>Leave a Message</label>
-                        <textarea class="form-control" input type="leave a message" rows="5" placeholder="Leave a Message"></textarea></textarea>
+                    <section class="form-group row mx-sm-1">
+                        <div class="col-md-10">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                    </section>
+                    <section class="form-group row mx-sm-1">
+                        <div class="col-md-10">
+                            <label>Leave a Message</label>
+                            <textarea class="form-control" input type="leave a message" rows="5" placeholder="Leave a Message"></textarea></textarea>
+                        </div>
                     </section>
                 </form>
 
-                <button tpye="button" class="btn btn-outline-dark">Submit</button>
+                <div class="row mx-2">
+                    <div class="col">
+                        <button tpye="button" class="btn btn-outline-dark">Submit</button>                   
+                    </div>
+                </div>
+                
             </section>
         </main>
     </body>
