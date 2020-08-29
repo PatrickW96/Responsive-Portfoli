@@ -39,7 +39,7 @@ img {
 /* Added 75% screen width upon 768px break point with the !important property to over ride the "50% !important" property applied to the 
 "w-50" Bootstrap class.  */
     .w-50 {
-        width: 75% !important;
+        width: 80% !important;
     }
 }
 
