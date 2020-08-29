@@ -11,10 +11,34 @@
     border: 2px solid #496985;
 }
 
-.hide {
-    display: none;
+/* Adding correct text color to heading link and muted text */
+.header-txt {
+    color: #496985 !important;
 }
 
-img:hover + .hide {
-    display: block;
+/* Start Footer CSS */
+
+.fa-X {
+    font-size: 2.3rem;
 }
+
+footer {
+    background: linear-gradient(
+        to right,        
+        #f7f2df,
+        #d1cec5,
+        #bab093,
+        #b38246
+    );
+    color: #496985;
+    opacity: .8;
+    border: 2px solid #496985;
+
+}
+
+footer a{
+    color: #496985;
+}
+
+
+
