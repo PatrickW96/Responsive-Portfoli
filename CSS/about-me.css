@@ -53,12 +53,15 @@ img {
 
 /* Removing underline effect anchor tags create by default */
 #pat-help {
-    text-decoration: none
+    text-decoration: none;
+    color: crimson;
 }
+
 
 /* Making the menu bar icon 1.5rem larger than their default sizes */
 .fa-big {
     font-size: 1.5rem;
+    color: #496985;
 }
 
 /* Making footer fontAwesome icons larger than their default sizes. */
