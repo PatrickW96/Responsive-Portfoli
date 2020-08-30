@@ -6,7 +6,7 @@
 
 /* Includes Nav anchor styles */
 nav ul a {
-    color: #496985;
+    color: #496985 !important;
     font-weight: 500 !important;
     font-size: 1.3rem;
     font-family: "Sunflower", Georgia, 'Times New Roman', Times, serif;
@@ -23,6 +23,12 @@ nav ul a {
     );
     opacity: .8;
     border: 2px solid #496985;
+    /* display: flex; */
+}
+
+.fa-big {
+    color: #496985;
+    font-size: 1.5rem;
 }
 
 /* Heading in nav font-family */
