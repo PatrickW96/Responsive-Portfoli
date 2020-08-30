@@ -11,6 +11,7 @@
     color: #496985;
     opacity: .8;
     border: 2px solid #496985;
+    min-height: 80vh;
 }
 
 .narbar {
@@ -43,7 +44,7 @@ img {
                 "w-50" Bootstrap class.  */
                 
     .w-50 {
-        width: 80% !important;
+        width: 90% !important;
     }
 }
 
@@ -64,7 +65,9 @@ img {
     font-size: 1.5 rem;
 }
 
-
+.fa-big {
+    font-size: 1.5rem;
+}
 
 /* Making footer fontAwesome icons larger than their default sizes. */
 .fa-X {
@@ -88,6 +91,7 @@ footer {
 footer a{
     color: #496985;
 }
+
 
 
 /*  Finish Footer

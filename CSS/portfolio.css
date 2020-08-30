@@ -11,6 +11,10 @@
     border: 2px solid #496985;
 }
 
+main img {
+    max-width: 300px !important;
+}
+
 /* Adding correct text color to heading link and muted text */
 .header-txt {
     color: #496985 !important;
@@ -44,6 +48,13 @@ footer {
 footer a{
     color: #496985;
 }
+
+@media screen and (max-width: 768px) {
+    .h3 { 
+        font-size: 1.25rem !important;
+    }
+}
+
 
 
 

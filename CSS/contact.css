@@ -9,26 +9,37 @@
     color: #496985;
     opacity: .8;
     border: 2px solid #496985;
+    min-height: 80vh;
 }
 
 @media only screen and (max-width: 768px) {
+    .h3 { 
+        font-size: 1.25rem !important;
+    }
     #main-content {
         margin: auto;
-        padding: 5px;
+        padding: 1px;
     }
-
+                /* Added 75% screen width upon 768px break point with the !important property to over ride the "50% !important" property applied to the 
+                "w-50" Bootstrap class.  */
+                
     .w-50 {
         width: 90% !important;
     }
-
 }
 
 .header-txt {
     color: #496985 !important;
 }
 
+.fa-big {
+    color: #496985;
+    font-size: 1.5rem;
+}
+
 
 /* Start Footer CSS */
+
 
 .fa-X {
     font-size: 2.3rem;
@@ -45,9 +56,9 @@ footer {
     color: #496985;
     opacity: .8;
     border: 2px solid #496985;
-
+    margin-bottom: 0% !important;
 }
 
-footer a{
+footer a {
     color: #496985;
 }
