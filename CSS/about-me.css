@@ -12,11 +12,9 @@
     opacity: .8;
     border: 2px solid #496985;
     min-height: 80vh;
+    font-family: "Sunflower", Georgia, 'Times New Roman', Times, serif;
 }
 
-.narbar {
-    padding: 20px !important;
-}
 
 /* Setting  unit of measurement on the picture to make the image responsive */
 img {
@@ -25,6 +23,7 @@ img {
     max-height: 12rem;
 }
 
+/* Styling Main Heading */
 .main-heading {
     font-size: 30px;
     font-family: "Marmelad" Georgia, 'Times New Roman', Times, serif !important;
@@ -69,7 +68,8 @@ img {
     font-size: 1.5rem;
 }
 
-/* Making footer fontAwesome icons larger than their default sizes. */
+/* Footer Styles */
+
 .fa-X {
     font-size: 2.3rem;
 }
@@ -91,11 +91,3 @@ footer {
 footer a{
     color: #496985;
 }
-
-
-
-/*  Finish Footer
-    Add font-family's 
-    Add links to footer icons
-    HTML service check
-        */

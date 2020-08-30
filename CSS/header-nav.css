@@ -1,11 +1,15 @@
+/* Basic CSS stylesheet for the heading on all three pages */
+
 .bg {
     background-image: url("../Images/red-brickwall.jpg"); 
 }
 
+/* Includes Nav anchor styles */
 nav ul a {
     color: #496985;
     font-weight: 500 !important;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-family: "Sunflower", Georgia, 'Times New Roman', Times, serif;
     
 }
 
@@ -21,6 +25,13 @@ nav ul a {
     border: 2px solid #496985;
 }
 
+/* Heading in nav font-family */
+
+.header-txt {
+    font-family: "Marmelad", Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Adding style to horizontal rule */
 .line-break {
     border: 2px solid #496985;
     width: 75%;
