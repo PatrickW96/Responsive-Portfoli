@@ -9,10 +9,12 @@
     color: #496985;
     opacity: .8;
     border: 2px solid #496985;
+    min-height: 80vh;
 }
 
 main img {
     max-width: 300px !important;
+    max-height: 300px !important;
 }
 
 /* Adding correct text color to heading link and muted text */
@@ -52,6 +54,11 @@ footer a{
 @media screen and (max-width: 768px) {
     .h3 { 
         font-size: 1.25rem !important;
+    }
+
+    main img {
+        max-width: 250px !important;
+        max-height: 250px !important;
     }
 }
 
